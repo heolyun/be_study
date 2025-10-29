@@ -43,5 +43,23 @@ public class Variable02 {
 		System.out.println(msg);
 		
 		System.out.println("어서\t오세요~\n반갑습니다.");
+		
+		double d1 =12.123;
+		double d2 = 500.0;
+		double d3 = 5e2;
+		double d4 = 0.0012;
+		double d5 = 0.12E-2;
+		
+		float f1 = 23.45f;
+		
+		//논리형 ture false 참 거짓
+		boolean open = true;
+		boolean close = false;
+		boolean stop = false;
+		
+		boolean isOpen = true;
+		boolean isClosed = false;
+		
+		boolean hasOption = true;
 	}
 }
