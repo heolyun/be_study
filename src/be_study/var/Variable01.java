@@ -69,5 +69,12 @@ public class Variable01 {
 		
 		int totalScore = score + score + 50;
 		System.out.println(totalScore);
+		
+		// 
+		int a = 10;
+		int b = 20;
+		
+		// a:10 b:20
+		
 	}
 }
