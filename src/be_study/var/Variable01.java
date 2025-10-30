@@ -3,6 +3,10 @@ package be_study.var;
 public class Variable01 {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 84d2e0827965a3f53d486ccfa7b0c88291799a1f
 		//변수 선언
 		
 		//타입 변수명
@@ -66,6 +70,7 @@ public class Variable01 {
 		System.out.println( result + value + result + value );
 		//					25		 20      25       20 	
 		
+<<<<<<< HEAD
 		int totalScore = score + score + 50; //90 + 90 + 50
 		System.out.println(totalScore);	// 230
 		
@@ -106,3 +111,16 @@ public class Variable01 {
 }
 
 
+=======
+		int totalScore = score + score + 50;
+		System.out.println(totalScore);
+		
+		// 
+		int a = 10;
+		int b = 20;
+		
+		// a:10 b:20
+		
+	}
+}
+>>>>>>> 84d2e0827965a3f53d486ccfa7b0c88291799a1f
