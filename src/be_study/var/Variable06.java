@@ -27,7 +27,7 @@ public class Variable06 {
 		System.out.println( str1.equals(str2) );
 		System.out.println( str2.equals(str1) );
 		System.out.println( str1.equals("햄버거") );
-		
+				
 		// 문자열(String) 값 비교할때는 == 쓰지말고  .equals 쓰자~
 	}
 
