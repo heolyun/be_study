@@ -13,13 +13,10 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-<<<<<<< HEAD
-
 =======
 .classpath
 .project
 .vscode/
->>>>>>> 84d2e0827965a3f53d486ccfa7b0c88291799a1f
 # External tool builders
 .externalToolBuilders/
 
