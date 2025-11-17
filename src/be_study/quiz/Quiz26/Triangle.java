@@ -1,18 +1,23 @@
-package be_study.quiz.Quiz26;
+package be_study.quiz.quiz26;
 
 public class Triangle {
-    private int base;
-    private int height;
+	int width; //밑변
+	int height; //높이
+	
+	//double width; //밑변
+	
+	void setSize(int width, int height) {
+		this.width = width;
+		this.height = height;
+	}
+	
+	double getArea() {
+		return (double)width * height / 2.0;
+		//return width * height / 2;
+		//		 int * int  / int  => int 
+		// double 변수 = int값
+	}
+}	
 
-    public Triangle() {
-    }
 
-    public void setSize(int base, int height) {
-        this.base = base;
-        this.height = height;
-    }
 
-    public double getArea() {
-        return (base * height) / 2.0;
-    }
-}

@@ -1,16 +1,17 @@
-package be_study.quiz.Quiz26;
+package be_study.quiz.quiz26;
 
 public class Rectangle {
-    private int base;
-    private int height;
-
-    public Rectangle(int base, int height) {
-        this.base = base;
-        this.height = height;
-    }
-
-    public int getArea() {
-        // 사각형 넓이 = 밑변 * 높이
-        return base * height;
-    }
+	
+	int width; //밑변
+	int height; //높이
+	
+	Rectangle(int width, int height){
+		this.width = width;
+		this.height = height;
+	}
+	
+	double getArea() {
+		return width * height;
+	}
+	
 }
