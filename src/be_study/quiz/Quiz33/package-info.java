@@ -1,1 +1,1 @@
-package be_study.quiz.Quiz33;
+package quiz33;
