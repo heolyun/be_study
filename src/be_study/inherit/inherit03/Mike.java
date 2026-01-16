@@ -11,8 +11,14 @@ public class Mike {
 		System.out.println("Mike volumeUp()");
 	}
 	
-	public final void noMethod() {
-		System.out.println("noMethod()");
+	public void check() {
+		System.out.println("마이크 기능 check");
 	}
-
+	
+	public final void noMethod() {
+		System.out.println("noMethod");
+	}
+	
+	//여러 기능 메소드 
+	//여러 기능 메소드
 }

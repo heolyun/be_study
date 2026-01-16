@@ -5,8 +5,8 @@ public class Coke extends Beverage {
 
 	@Override
 	public void checkSafety() {
-		// TODO Auto-generated method stub
-		
+		System.out.println("당분 이상없나?");
 	}
-
+	
+	
 }

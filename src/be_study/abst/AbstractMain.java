@@ -7,8 +7,10 @@ public class AbstractMain {
 		//Beverage b1 = new Beverage();
 		Hite h1 = new Hite();
 		h1.name = "하이트라이트";
-		h1.alcol = 5.5;
+		h1.ml = 330;
+		h1.alcol = 6.3;
 		h1.introduce();
+		h1.checkAlcol();
 		
 		Coke c1 = new Coke();
 		c1.name = "제로콜라";
@@ -19,17 +21,17 @@ public class AbstractMain {
 		//Beverage b1 = new Beverage();
 		Beverage b1 = new Coke();
 		Beverage b2 = new Hite();
-		Beverage[] bArr= {new Coke(), new Hite()};
+		Beverage[] bArr = {new Coke(), new Hite()};
 		
-		//bArr[0].checksafety();
+		//bArr[0].checkSafety();
 		
 		b2.checkSafety();
 		b2.introduce();
-		//instanceof
+		
+		// instanceof
 		Hite hh = (Hite)b2;
 		hh.checkAlcol();
 		
-		
+	}
 
-}
 }
